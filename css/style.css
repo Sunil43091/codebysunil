@@ -856,6 +856,7 @@ body {
   padding: 30px 20px;
   text-align: center;
   transition: 0.35s ease;
+  margin:0 auto;
 }
 
 .stack-card:hover {
