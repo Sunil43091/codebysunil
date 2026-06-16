@@ -55,7 +55,10 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <meta name="twitter:title" content="Sunil Kumar | Frontend Developer" />
-    <meta property="og:image:alt" content="Sunil Kumar Frontend Developer Portfolio" />
+    <meta
+      property="og:image:alt"
+      content="Sunil Kumar Frontend Developer Portfolio"
+    />
     <meta
       name="twitter:description"
       content="Explore the portfolio of Sunil Kumar, a Frontend Developer specializing in React, Next.js, and modern web technologies."
@@ -67,14 +70,18 @@
     />
 
     <!-- Favicon -->
-      <link rel="icon" type="image/png" href="img/favicon.png" />
-      <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 
     <!-- Sitemap -->
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <!-- Structured Data -->
-      <script type="application/ld+json">
+    <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -88,10 +95,47 @@
           "https://www.linkedin.com/in/sunil-kumar-7495601a5/"
         ]
       }
-</script>
+    </script>
   </head>
 
   <body>
+    <div class="topbar">
+      <div class="container topbar-content">
+        <div class="topbar-left">
+          <i class="fa-solid fa-rocket"></i>
+          Available for Freelance Projects
+        </div>
+
+        <div class="topbar-right">
+          <a
+            href="https://github.com/Sunil43091"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sunil-kumar-7495601a5/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <a
+            href="https://wa.me/9056343091"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="container">
         <nav class="navbar">
@@ -127,7 +171,7 @@
 
           <div class="hero-buttons">
             <a href="img/Sunil Kumar Designer.pdf" class="btn-primary" download>
-              Download CV
+              Download Resume
             </a>
 
             <a href="#projects" class="btn-secondary"> View Projects </a>
@@ -149,6 +193,34 @@
               <span>Clients</span>
             </div>
           </div>
+          <div class="hero-social">
+            <a
+              href="https://github.com/Sunil43091"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/sunil-kumar-7495601a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="https://wa.me/919056343091"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -163,7 +235,7 @@
           </p>
         </div>
 
-          <div id="projects-container" class="projects-grid"></div>
+        <div id="projects-container" class="projects-grid"></div>
         <div class="load-more-wrap">
           <button id="loadMoreBtn">See More</button>
         </div>
@@ -634,12 +706,14 @@
 
             <div class="info-item">
               <h4>Email</h4>
-              <p>sk3645797@gmail.com</p>
+              <p>
+                <a href="mailto:sk3645797@gmail.com"> sk3645797@gmail.com </a>
+              </p>
             </div>
 
             <div class="info-item">
               <h4>Phone</h4>
-              <p>+91 9056343091</p>
+              <p><a href="tel:+919056343091"> +91 9056343091 </a></p>
             </div>
 
             <div class="info-item">
@@ -667,11 +741,23 @@
             </div>
 
             <div class="form-group">
-              <select name="service">
-                <option>Select Service</option>
+              <select name="service" required>
+                <option value="">Select Service</option>
+
                 <option>Website Design</option>
                 <option>UI/UX Design</option>
                 <option>Frontend Development</option>
+                <option>React Development</option>
+                <option>Next.js Development</option>
+                <option>Landing Page Design</option>
+                <option>Business Website</option>
+                <option>E-Commerce Website</option>
+                <option>Website Redesign</option>
+                <option>WordPress Website</option>
+                <option>Shopify Store Setup</option>
+                <option>Portfolio Website</option>
+                <option>Website Maintenance</option>
+                <option>SEO Optimization</option>
                 <option>Full Website Project</option>
               </select>
             </div>
@@ -712,15 +798,43 @@
 
           <div class="footer-social">
             <h3>Connect</h3>
-            <a href="https://www.linkedin.com/in/sunil-kumar-7495601a5/" target="_blank"   rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/Sunil43091" target="_blank"   rel="noopener noreferrer">GitHub</a>
-            <a href="https://wa.me/9056343091" target="_blank"   rel="noopener noreferrer">WhatsApp</a>
-            <a href="/img/Sunil Kumar Designer.pdf" download>Resume PDF</a>
+
+            <a
+              href="https://www.linkedin.com/in/sunil-kumar-7495601a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+
+            <a
+              href="https://github.com/Sunil43091"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+
+            <a
+              href="https://wa.me/9056343091"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp
+            </a>
+
+            <a href="/img/Sunil Kumar Designer.pdf" download>
+              <i class="fa-solid fa-file-arrow-down"></i>
+              Resume PDF
+            </a>
           </div>
         </div>
 
         <div class="footer-bottom">
-          <p>© 2026 Sunil Kumar. All Rights Reserved.</p>
+          <p>© <span id="year"></span> Sunil Kumar. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
@@ -856,6 +970,7 @@
           ? "✕"
           : "☰";
       });
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 
     <script>
@@ -896,6 +1011,47 @@
 
       counters.forEach((counter) => {
         observer.observe(counter);
+      });
+    </script>
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script>
+      const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          scrollTopBtn.classList.add("show");
+        } else {
+          scrollTopBtn.classList.remove("show");
+        }
+      });
+
+      scrollTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      document.querySelectorAll(".nav-menu a").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+          const headerOffset = 90;
+
+          const elementPosition = target.offsetTop;
+          const offsetPosition = elementPosition - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+
+          navMenu.classList.remove("active");
+          menuToggle.innerHTML = "☰";
+        });
       });
     </script>
   </body>
