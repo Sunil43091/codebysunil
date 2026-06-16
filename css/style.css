@@ -599,6 +599,10 @@ body {
   .stats h4 {
     font-size: 24px;
   }
+  .about {
+  padding: 100px 0 0px;
+}
+
 }
 
 .skills-section {
