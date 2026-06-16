@@ -905,10 +905,16 @@ body {
     gap: 15px;
   }
 
-  .stack-card {
+.stack-card {
     padding: 25px 15px;
-  }
-
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   .stack-card img {
     width: 50px;
     height: 50px;
