@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunil Kumar - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo"> Sunil Kumar<span>.</span> </a>
+
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <button class="menu-toggle" id="menuToggle">☰</button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag"> Available For Freelance Work </span>
+
+          <h1>
+            Hi, I'm
+            <span>Sunil Kumar</span>
+          </h1>
+
+          <h2>Frontend Developer</h2>
+
+          <p>
+            I design and develop modern, responsive websites using Next.js,
+            Laravel and cutting-edge web technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="img/Sunil Kumar Designer.pdf" class="btn-primary" download>
+              Download CV
+            </a>
+
+            <a href="#projects" class="btn-secondary"> View Projects </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <h3 class="counter" data-target="50">0</h3>
+              <span>Projects</span>
+            </div>
+
+            <div>
+              <h3 class="counter" data-target="4">0</h3>
+              <span>Years</span>
+            </div>
+
+            <div>
+              <h3 class="counter" data-target="20">0</h3>
+              <span>Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="price-row" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <span>My Work</span>
+          <h2>Projects I've Built</h2>
+          <p>
+            A collection of websites, web applications, and design projects I've
+            worked on over the years.
+          </p>
+        </div>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="projects-link"
+        >
+          <div id="projects-container" class="projects-grid"></div>
+        </a>
+        <div class="load-more-wrap">
+          <button id="loadMoreBtn">See More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-left">
+            <img src="img/profile.png" alt="Sunil Kumar Profile Picture" />
+          </div>
+
+          <div class="about-right">
+            <span class="tag">About Me</span>
+
+            <h2>Designer & Frontend Developer</h2>
+
+            <p>
+              I build fast and responsive websites using React and Next.js. I
+              enjoy turning designs into real websites that people can use. I am
+              currently learning more about website performance and advanced
+              animations.
+            </p>
+
+            <div class="skills-progress">
+              <div class="skill">
+                <div class="skill-top">
+                  <span>HTML</span>
+                  <span>80%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 80%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>CSS</span>
+                  <span>75%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>JavaScript</span>
+                  <span>60%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 60%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>React</span>
+                  <span>75%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Next.js</span>
+                  <span>70%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 70%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Bootstrap</span>
+                  <span>85%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 85%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Tailwind CSS</span>
+                  <span>80%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 80%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Ant Design</span>
+                  <span>70%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 70%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>WordPress</span>
+                  <span>70%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 70%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Shopify</span>
+                  <span>70%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 70%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Webflow</span>
+                  <span>40%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 40%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Wix</span>
+                  <span>60%</span>
+                </div>
+                <div class="bar">
+                  <div class="fill" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <span>My Expertise</span>
+          <h2>Skills & Technologies</h2>
+          <p>
+            Tools and technologies I use to design and build modern websites.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Frontend Development</h3>
+
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Next.js</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>Backend Development</h3>
+
+            <div class="skill-tags">
+              <span>Mongodb</span>
+              <span>Node.js</span>
+              <span>Api</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+
+            <h3>UI / UX Design</h3>
+
+            <div class="skill-tags">
+              <span>Figma</span>
+              <span>Wireframing</span>
+              <span>Prototyping</span>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+
+            <h3>Creative Tools</h3>
+
+            <div class="skill-tags">
+              <span>Photoshop</span>
+              <span>Canva</span>
+              <span>Brand Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <span>What I Do</span>
+          <h2>Services I Provide</h2>
+          <p>
+            Helping businesses build modern digital experiences through design
+            and development.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-number">01</div>
+            <h3>Website Design</h3>
+            <p>
+              Modern, responsive and user-focused website designs that leave a
+              lasting impression.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-number">02</div>
+            <h3>UI / UX Design</h3>
+            <p>
+              Clean interfaces and intuitive user experiences designed for
+              engagement and conversions.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-number">03</div>
+            <h3>Frontend Development</h3>
+            <p>
+              Fast and responsive websites built with React, Next.js and
+              Tailwind CSS.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-number">04</div>
+            <h3>Next.js Development</h3>
+            <p>
+              Server-side rendering and static site generation with Next.js.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-number">05</div>
+            <h3>Website Redesign</h3>
+            <p>
+              Transform outdated websites into modern, mobile-friendly
+              experiences.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-number">06</div>
+            <h3>SEO Optimization</h3>
+            <p>
+              Technical SEO improvements to help your website rank better on
+              search engines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="timeline-section">
+      <div class="container">
+        <div class="section-title">
+          <span>My Journey</span>
+          <h2>Experience Timeline</h2>
+          <p>My growth from designer to frontend developer over the years.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="year">2022</span>
+              <h3>Web Designer - ARC Web Media Solutions</h3>
+
+              <p>
+                Started my professional journey as a Web Designer, working on
+                website layouts, UI designs and responsive web projects in
+                Mohali.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="year">2023</span>
+              <h3>Frontend Developer - Binary Data Pvt. Ltd.</h3>
+
+              <p>
+                Expanded my frontend development skills by building responsive
+                websites, user interfaces and client-focused web solutions in
+                Mohali.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="year">2025</span>
+              <h3>Frontend Developer - Miracle Web Soft</h3>
+              <p>
+                Worked on modern web applications, frontend development and
+                advanced website projects while enhancing development workflows
+                in Rajpura.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="year">Present</span>
+              <h3>
+                Senior Web Designer & Frontend Developer - Web Perfection
+                Technology
+              </h3>
+              <p>
+                Currently working as a Designer & Frontend Developer, creating
+                modern, high-performance websites using HTML, CSS, JavaScript,
+                React, Next.js and other modern technologies in Mohali.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tech-stack" id="tech-stack">
+      <div class="container">
+        <div class="section-title">
+          <span>Technologies</span>
+          <h2>My Tech Stack</h2>
+          <p>
+            Technologies and tools I use to design and build modern web
+            experiences.
+          </p>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-card">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-brands fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-brands fa-react"></i>
+            <span>React</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-solid fa-n"></i>
+            <span>Next.js</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-brands fa-css3"></i>
+            <span>Tailwind CSS</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-brands fa-figma"></i>
+            <span>Figma</span>
+          </div>
+
+          <div class="stack-card">
+            <i class="fa-solid fa-image"></i>
+            <span>Photoshop</span>
+          </div>
+          <div class="stack-card">
+            <i class="fa-brands fa-wordpress"></i>
+            <span>Wordpress</span>
+          </div>
+          <div class="stack-card">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Shopify</span>
+          </div>
+          <div class="stack-card">
+            <i class="fa-brands fa-wix"></i>
+            <span>Wix</span>
+          </div>
+          <div class="stack-card">
+            <i class="fa-brands fa-bootstrap"></i>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <div class="cta-box">
+          <span class="cta-tag"> Let's Work Together </span>
+
+          <h2>Have a Project in Mind?</h2>
+
+          <p>
+            I'm available for freelance projects, website design and modern web
+            development solutions.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="#contact" class="cta-btn primary"> Start a Project </a>
+
+            <a href="https://wa.me/919999999999" class="cta-btn secondary">
+              WhatsApp Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <span>Get In Touch</span>
+          <h2>Let's Work Together</h2>
+          <p>
+            Have a project in mind? Let's discuss your ideas and create
+            something amazing.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+
+            <div class="info-item">
+              <h4>Email</h4>
+              <p>sk3645797@gmail.com</p>
+            </div>
+
+            <div class="info-item">
+              <h4>Phone</h4>
+              <p>+91 9056343091</p>
+            </div>
+
+            <div class="info-item">
+              <h4>Location</h4>
+              <p>Punjab, India</p>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/mdojgrvz"
+            method="POST"
+          >
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <select name="service">
+                <option>Select Service</option>
+                <option>Website Design</option>
+                <option>UI/UX Design</option>
+                <option>Frontend Development</option>
+                <option>Full Website Project</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Tell me about your project"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h2>Sunil Kumar</h2>
+            <p>
+              Frontend Developer creating modern and responsive digital
+              experiences.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="footer-social">
+            <h3>Connect</h3>
+
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">WhatsApp</a>
+            <a href="/img/Sunil Kumar Designer.pdf" download>Resume PDF</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Sunil Kumar. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const projects = [
+        {
+          image: "img/screenshort_1.png",
+          link: "https://riji-health-ashen.vercel.app/",
+        },
+        {
+          image: "img/screenshort_2.png",
+          link: "https://taste-nest-eight.vercel.app/",
+        },
+        {
+          image: "img/screenshort_3.png",
+          link: "https://bunty-dhaba.vercel.app/",
+        },
+        {
+          image: "img/screenshort_4.png",
+          link: "https://novapay-three-chi.vercel.app/",
+        },
+        {
+          image: "img/screenshort_5.png",
+          link: "https://jyoti-ro-water-supplier.vercel.app/",
+        },
+        {
+          image: "img/screenshort_6.png",
+          link: "https://vietnam-e-visa.vercel.app/",
+        },
+        {
+          image: "img/screenshort_7.png",
+          link: "https://company-site-self.vercel.app/",
+        },
+        {
+          image: "img/screenshort_8.png",
+          link: "https://my-next-color.vercel.app/",
+        },
+        {
+          image: "img/screenshort_9.png",
+          link: "https://positivus-pied.vercel.app/",
+        },
+        {
+          image: "img/screenshort_10.png",
+          link: "https://car-rentel-liart.vercel.app/",
+        },
+        {
+          image: "img/screenshort_11.png",
+          link: "https://restaurent-test.vercel.app/",
+        },
+        {
+          image: "img/screenshort_12.png",
+          link: "https://e-commerce-website-psi-eight-50.vercel.app/",
+        },
+        {
+          image: "img/screenshort_13.png",
+          link: "https://cooks-tau.vercel.app/",
+        },
+        {
+          image: "img/screenshort_14.png",
+          link: "https://demo-site-psi-lake.vercel.app/",
+        },
+        {
+          image: "img/screenshort_15.png",
+          link: "https://my-first-site-black-rho.vercel.app/",
+        },
+        {
+          image: "img/screenshort_16.png",
+          link: "https://my-first-site-5a8q.vercel.app/",
+        },
+        {
+          image: "img/screenshort_17.png",
+          link: "https://sva-love.vercel.app/",
+        },
+        {
+          image: "img/screenshort_18.png",
+          link: "https://cenzuk-project.vercel.app/",
+        },
+        {
+          image: "img/screenshort_19.png",
+          link: "https://luxury-eye-wear.vercel.app/",
+        },
+      ];
+      const container = document.getElementById("projects-container");
+      const loadMoreBtn = document.getElementById("loadMoreBtn");
+
+      let visibleProjects = 6;
+      const increment = 3;
+
+      function renderProjects() {
+        container.innerHTML = "";
+
+        projects.slice(0, visibleProjects).forEach((project) => {
+          container.innerHTML += `
+      <div class="project-card">
+        <div class="project-preview">
+          <img src="${project.image}" alt="Project Screenshot">
+        </div>
+
+        <div class="project-info">
+          <a href="${project.link}" target="_blank">
+            View Website
+          </a>
+        </div>
+      </div>
+    `;
+        });
+
+        const remaining = projects.length - visibleProjects;
+
+        if (remaining > 0) {
+          loadMoreBtn.textContent = `See More`;
+        } else {
+          loadMoreBtn.style.display = "none";
+        }
+      }
+
+      loadMoreBtn.addEventListener("click", () => {
+        visibleProjects += increment;
+        renderProjects();
+      });
+
+      renderProjects();
+    </script>
+
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+
+        menuToggle.innerHTML = navMenu.classList.contains("active")
+          ? "✕"
+          : "☰";
+      });
+    </script>
+
+    <script>
+      const counters = document.querySelectorAll(".counter");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const counter = entry.target;
+              const target = +counter.dataset.target;
+
+              let count = 0;
+
+              const updateCounter = () => {
+                const increment = target / 60;
+
+                if (count < target) {
+                  count += increment;
+                  counter.innerText = Math.ceil(count);
+
+                  requestAnimationFrame(updateCounter);
+                } else {
+                  counter.innerText = target + "+";
+                }
+              };
+
+              updateCounter();
+
+              observer.unobserve(counter);
+            }
+          });
+        },
+        {
+          threshold: 0.5,
+        },
+      );
+
+      counters.forEach((counter) => {
+        observer.observe(counter);
+      });
+    </script>
+  </body>
+</html>
