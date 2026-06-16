@@ -458,7 +458,7 @@ body {
   }
 
   .project-preview {
-    height: 280px;
+    height: 300px;
   }
 
   .project-card:hover .project-preview img {
@@ -493,7 +493,7 @@ body {
   }
 
   .project-preview {
-    height: 220px;
+    height: 300px;
   }
 
   .project-card:hover .project-preview img {
