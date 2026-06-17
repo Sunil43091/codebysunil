@@ -991,7 +991,10 @@
       const navMenu = document.getElementById("navMenu");
 
       menuToggle.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
+         menuToggle.setAttribute(
+          "aria-expanded",
+          navMenu.classList.contains("active")
+        );
 
         menuToggle.innerHTML = navMenu.classList.contains("active")
           ? "✕"
