@@ -1449,3 +1449,17 @@ body {
   border: 0;
   display: block;
 }
+.hero-highlights span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1e293b;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.hero-highlights i {
+  color: #22c55e;
+}
