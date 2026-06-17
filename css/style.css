@@ -99,6 +99,10 @@ body {
   .nav-menu.active {
     left: 0;
   }
+  
+.logo {
+  font-size: 22px;
+}
 }
 
 .hero {
