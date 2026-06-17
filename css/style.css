@@ -1064,7 +1064,8 @@ body {
   color: #fff;
 }
 .contact-info a {
-    color: #fff;
+  color: #fff;
+  text-decoration:none;
 }
 .contact-form {
   background: #111827;
