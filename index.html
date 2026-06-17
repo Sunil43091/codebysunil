@@ -988,7 +988,8 @@
       const navMenu = document.getElementById("navMenu");
 
       menuToggle.addEventListener("click", () => {
-          navMenu.classList.contains("active")
+        navMenu.classList.toggle("active");
+
         menuToggle.innerHTML = navMenu.classList.contains("active")
           ? "✕"
           : "☰";
