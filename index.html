@@ -150,10 +150,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <button   class="menu-toggle"
-                   id="menuToggle"
-                   aria-label="Toggle Navigation Menu"
-                   aria-expanded="false">☰</button>
+          <button class="menu-toggle" id="menuToggle">☰</button>
         </nav>
       </div>
     </header>
@@ -991,11 +988,7 @@
       const navMenu = document.getElementById("navMenu");
 
       menuToggle.addEventListener("click", () => {
-         menuToggle.setAttribute(
-          "aria-expanded",
           navMenu.classList.contains("active")
-        );
-
         menuToggle.innerHTML = navMenu.classList.contains("active")
           ? "✕"
           : "☰";
