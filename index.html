@@ -69,6 +69,8 @@
       name="twitter:image"
       content="https://codebysunil.vercel.app/img/preview.png"
     />
+    <meta name="twitter:image:alt"
+      content="Sunil Kumar Frontend Developer Portfolio">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -953,10 +955,10 @@
   container.innerHTML += `
   <div class="project-card">
     <div class="project-preview">
-       <img src="${project.image}" alt="${project.alt}">
+       <img src="${project.image}" alt="${project.alt}"  loading="lazy">
     </div>
     <div class="project-info">
-      <a href="${project.link}" target="_blank">
+      <a href="${project.link}" target="_blank"   rel="noopener noreferrer"> 
         View Website
       </a>
     </div>
